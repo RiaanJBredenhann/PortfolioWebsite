@@ -13,26 +13,39 @@
 .header {
     background-color: rgb(66, 235, 190);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    display: inline-block;
+    height: 337px;
 
-    .header-title {
-        background-color: blue;
-        font-size: 150%;
-        margin-left: 5%;
-        /* margin-right: 50%; */
-        /* width: 300px; */
-    }
+    .header-title-info {
+        background-color: orange;
+        display: inline-block;
+        width: 625px;
+        height: 250px;
 
-    .header-intro {
-        background-color: yellow;
-        font-size: 120%;
-        /* margin-right: 35%; */
-        margin-left: 2%;
-        width: 645px;
+        .header-title {
+            background-color: blue;
+            font-size: 150%;
+            margin-left: 5%;
+        }
+
+        .header-intro {
+            background-color: yellow;
+            font-size: 120%;
+            margin-left: 2%;
+        }
+
     }
     
     .header-portrait {
+        background-color: violet;
         display: inline-block;
+        width: 360px;
+        height: 360px;
+
+        .portrait {
+            width: 379px;
+            height: 337px;
+            object-fit: contain;
+        }
     }
 }
 

@@ -6,7 +6,7 @@
     height: 25px;
 
     .navbar-pages {
-        background-color: red;
+        /* background-color: red; */
         display: inline-block;
         margin-left: 1%;
         vertical-align: middle;;
@@ -17,12 +17,12 @@
     background-color: rgb(66, 235, 190);
     display: block;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    height: 337px;
+    height: 327px;
     /* vertical-align: top; */
     /* margin-bottom: 0px; */
 
     .header-title-info {
-        background-color: orange;
+        /* background-color: orange; */
         display: inline-block;
         width: 625px;
         /* height: 337px; */
@@ -30,14 +30,14 @@
 
         .header-title {
             display: block;
-            background-color: blue;
+            /* background-color: blue; */
             font-size: 150%;
             margin-left: 5%;
         }
 
         .header-intro {
             display: block;
-            background-color: yellow;
+            /* background-color: yellow; */
             font-size: 120%;
             margin-left: 2%;
         }
@@ -45,14 +45,14 @@
     }
     
     .header-portrait {
-        background-color: violet;
+        /* background-color: violet; */
         display: inline-block;
         width: 337px;
         height: 337px;
 
         .portrait {
             width: auto;
-            height: 337px;
+            height: 327px;
         }
     }
 }
@@ -60,21 +60,23 @@
 .my-work {
     background-color: rgb(241, 167, 86);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    vertical-align: top;
-    /* margin-top: 0px; */
 
     .my-work-title {
-        background-color: blue;
+        /* background-color: blue; */
         font-size: 135%;
         margin-left: 85%;
     }
 
     .my-work-projects {
-        .project {
-            background-color: dimgray;
+        .projects {
             display: inline-block;
+            margin: auto;
             margin-left: 3%;
-            width: 210px;
+
+            .project {
+                width: auto;
+                height: 100px;
+            }
         }
     }
 }
@@ -85,17 +87,15 @@
     /* vertical-align: top; */
 
     .contact-header {
-        background-color: blue;
+        /* background-color: blue; */
         font-size: 135%;
-        margin: auto;
-        width: 50%;
+        margin-left: 35%;
     }
 
     .contact-socials {
         .socials {
             display: inline-block;
-            margin-left: 10%;
-            width: 200px;
+            margin-left:20%;
 
             .social {
                 width: auto;

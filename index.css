@@ -82,12 +82,13 @@
 .contact {
     background-color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    vertical-align: top;
+    /* vertical-align: top; */
 
     .contact-header {
         background-color: blue;
         font-size: 135%;
-        margin-left: 5%;
+        margin: auto;
+        width: 50%;
     }
 
     .contact-socials {

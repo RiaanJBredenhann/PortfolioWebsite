@@ -1,0 +1,42 @@
+.navbar {
+    background-color: dimgray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 100%;
+
+    .navbar-pages {
+        background-color: red;
+        display: inline-block;
+        margin-left: 1%;
+    }
+}
+
+.header {
+    background-color: rgb(66, 235, 190);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: inline-block;
+
+    .header-title {
+        background-color: blue;
+        font-size: 150%;
+        margin-left: 5%;
+        /* margin-right: 50%; */
+        /* width: 300px; */
+    }
+
+    .header-intro {
+        background-color: yellow;
+        font-size: 120%;
+        /* margin-right: 35%; */
+        margin-left: 2%;
+        width: 645px;
+    }
+    
+    .header-portrait {
+        display: inline-block;
+    }
+}
+
+.myWork {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 135%;
+}

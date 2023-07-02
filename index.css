@@ -70,7 +70,6 @@
     .my-work-projects {
         .projects {
             display: inline-block;
-            margin: auto;
             margin-left: 3%;
 
             .project {
@@ -89,17 +88,24 @@
     .contact-header {
         /* background-color: blue; */
         font-size: 135%;
-        margin-left: 35%;
+        width: 28%;
+        margin: auto;
     }
 
     .contact-socials {
         .socials {
+            /* background-color: green; */
             display: inline-block;
-            margin-left:20%;
+            
+            .caption {
+                font-size: 75%;
+                text-align: center;
+            }
 
             .social {
-                width: auto;
-                height: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                height: 45px;
             }
         }
     }

@@ -64,18 +64,24 @@
     .my-work-title {
         /* background-color: blue; */
         font-size: 135%;
-        margin-left: 85%;
+        margin-left: 43%;
     }
 
     .my-work-projects {
         .projects {
+            /* background-color: black; */
             display: inline-block;
-            margin-left: 3%;
+            margin-left: 8%;
             margin-bottom: 3%;
 
             .project {
                 width: auto;
                 height: 100px;
+            }
+
+            .caption {
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }
@@ -97,6 +103,7 @@
         .socials {
             /* background-color: green; */
             display: inline-block;
+            margin-left: 20%;
             
             .caption {
                 font-size: 75%;
@@ -104,10 +111,13 @@
             }
 
             .social {
-                margin-left: auto;
-                margin-right: auto;
                 height: 45px;
             }
+        }
+
+        .caption {
+            display: inline-block;
+            margin-left: 15%;
         }
     }
 }
